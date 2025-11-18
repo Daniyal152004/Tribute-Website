@@ -1,5 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 20px 0;
+}
+
+.container {
+  background-color: #e5e5fd;
+  border: 16px solid #1d1e4c;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.img-container {
+  width: 314px;
+  height: 392px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 170px;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-content h3 {
+  font-size: 48px;
+}
+
+.text-content h4 {
+  font-size: 24px;
+}
+
+.text {
+  margin-top: 150px;
+}
+
+/* SECTION Missile-Man */
+
+.Missile-Man h1 {
+  font-size: 72px;
+  margin-top: 80px;
+}
+
+.Missile-Man p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+/* SECTION Biographies */
+
+.Biographies h4 {
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+.Biographies ul {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.Biographies li {
+  margin-left: 20px;
+}
+
+/* FOOTER  */
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: end;
+  font-size: 14px;
+}
+
+/* MOBILE STYLE */
+
+@media (max-width: 786px) {
+  .container {
+    padding: 10px;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 0.95rem;
+  }
+  ul {
+    padding-left: 15px;
+  }
+  li {
+    font-size: 0.9rem;
+  }
+}
+
+/* SMALL MOBILE  */
+
+@media (max-width: 480px) {
+  .container {
+    padding: 8px;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 0.85rem;
+  }
+  li {
+    font-size: 0.85rem;
+  }
 }
